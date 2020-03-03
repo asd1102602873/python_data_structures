@@ -24,6 +24,6 @@ def test6():
 
 time6 = timeit.Timer("test5()", "from __main__ import test5")
 time7 = timeit.Timer("test6()", "from __main__ import test6")
-print("pop():%s"%time6.timeit())#pop():8.954501
-print("pop(0):%s"%time7.timeit())#pop(0):14.834948
+print("pop():%s"%time6.timeit(),'毫秒')#pop():8.954501
+print("pop(0):%s"%time7.timeit(),'毫秒')#pop(0):14.834948
 
