@@ -12,10 +12,10 @@ def test6():
 from timeit import Timer
 
 #合并
-timer5 = Timer('test5()','from __main__ import test5')    
+timer5 = Timer('test5()','from __main__ import test5','毫秒')    
 print('extend: ',timer5.timeit(1000)) 
 #插入
-timer6 = Timer('test6()','from __main__ import test6')
+timer6 = Timer('test6()','from __main__ import test6','毫秒')
 print('insert :',timer6.timeit(1000))
 # extend:  1.0101343999999999
 # insert : 18.3201127
